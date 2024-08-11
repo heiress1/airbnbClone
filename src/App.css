@@ -14,7 +14,7 @@ body {
   /* padding: 0px 0.01px 0px 0.01px; */
   gap: 0px;
   opacity: 0px;
-  
+
 }
 
 .nav {
@@ -28,12 +28,40 @@ body {
 
 .grid {
   /* width: 395px; */
-  height: 232px;
+
   display:flex;
   margin-top: 96px;
   justify-content: center;
-  
+
+
   /* border-radius: 8.95px 0px 0px 0px; */
-  
+
 
 }
+
+/* //make images responsive  */
+
+.grid >img {
+  max-width:65%;
+  height: auto;
+}
+
+.title {
+  margin-left: 8%;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 39.6px;
+  text-align: left;
+
+}
+
+.subtitle {
+  margin-left: 8%;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 17.6px;
+  text-align: left;
+}
+
