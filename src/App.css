@@ -110,8 +110,12 @@ body {
   font-weight:bold;
 }
 
-.katie> p{
+.katie> h2,p{
   margin:0;
   margin-top: 8px;
 }
 
+h2 {
+  font-size: 1rem;
+  font-weight: normal;
+}

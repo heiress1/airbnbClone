@@ -7,14 +7,14 @@ export default function Card(){
         <div className="cards">
             <div className="katie">
                 
-                <img src={katie} alt="katie" />
+                <img src={katie} alt="katie zeferes" />
                 
                 <div className="star">
-                    <img src={star} alt="star" />
+                    <img src={star} alt="star icon" />
                     <span>5.0 <span className="grey">(6) • USA</span></span>
                 </div>
                 
-                <p>Life lessons with Katie Zaferes</p>
+                <h2>Life lessons with Katie Zaferes</h2>
                 <p><span className="bold">From $136</span> / person</p>
             </div>
 
