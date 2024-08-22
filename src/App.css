@@ -66,7 +66,7 @@ body {
 }
 
 .cards {
-  display:flex;
+
   /* width: 176px; */
   /* height: 235px; */
   margin-top: 49px;
@@ -76,12 +76,29 @@ body {
   
 }
 
-.katie > img {
+.card {
   
   border-radius: 5%;
+  height:auto;
+}
+
+.star {
+  height:18px;
+  align-self: center;
+ 
+  
+}
+
+.grey {
+  color: #918E9B;
 }
 
 
+
+
+
+
+/* 
 .star{
   display: flex;
   align-items: center;
@@ -89,7 +106,7 @@ body {
   
 }
 .rating{
-  display: flex;
+  
   flex-direction: row;
   margin: 0
 
@@ -118,4 +135,4 @@ body {
 h2 {
   font-size: 1rem;
   font-weight: normal;
-}
+} */
