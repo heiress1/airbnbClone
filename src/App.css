@@ -76,11 +76,25 @@ body {
   
 }
 
-.card {
+.cardContainer {
   
-  border-radius: 5%;
+  max-height:19.75rem;
+  max-width:17rem;
   height:auto;
 }
+
+.cardContainer > img{
+
+  border-radius: 5%;
+  width:100%;
+  height:auto;
+}
+
+.rating{
+  display: flex;
+  margin-top: 3.5rem;
+}
+
 
 .star {
   height:18px;
@@ -91,6 +105,11 @@ body {
 
 .grey {
   color: #918E9B;
+}
+
+.cards>card{
+  max-width:70%;
+  height: auto;
 }
 
 
