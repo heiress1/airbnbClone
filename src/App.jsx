@@ -45,17 +45,11 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      {cardElements}
-      {/* <Card
-        portrait="katie"
-        star="star"
-        altText='Katie Zaferes'
-        rating="5.0"
-        reviewCount={6}
-        country="USA"
-        title="Life lessons with Katie Zaferes"
-        price={136}
-      /> */}
+      <div className="cardElementContainer">
+        {cardElements}
+      </div>
+      
+      
     </div>
   );
 }

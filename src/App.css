@@ -58,6 +58,7 @@ body {
 
 .subtitle {
   margin-left: 8%;
+  margin-right:8%;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 300;
@@ -76,18 +77,22 @@ body {
   
 }
 
-.cardContainer {
-  
-  max-height:19.75rem;
-  max-width:17rem;
-  height:auto;
-}
+
 
 .cardContainer > img{
+  height:16.75rem;
+  width:12.7rem;
 
   border-radius: 5%;
   width:100%;
   height:auto;
+  
+}
+
+@media (max-width: 768px) {
+  .cardContainer >img {
+    flex-direction: row;
+  }
 }
 
 .rating{
@@ -107,16 +112,16 @@ body {
   color: #918E9B;
 }
 
-.cards>card{
+/* .cards>card{
   max-width:70%;
   height: auto;
+} */
+
+
+
+.cardElementContainer{
+  display: flex;
 }
-
-
-
-
-
-
 /* 
 .star{
   display: flex;
