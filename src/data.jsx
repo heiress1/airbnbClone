@@ -37,6 +37,19 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Learn How to Paint",
+        description: "Learn how to use watercolours, oils and acrylics to create beautiful works of art. All skill levels welcome!",
+        price: 80,
+        coverImg: "painting.png",
+        stats: {
+            rating: 5.0,
+            reviewCount: 15
+        },
+        location: "Canada",
+        openSpots: 5,
     }
 ]
 
