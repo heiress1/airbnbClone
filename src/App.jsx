@@ -29,14 +29,16 @@ export default function App() {
     return (
       // <img src={getImageURL(card.coverImg)} alt={card.title} />
       <Card
-        title={card.title}
-        description={card.description}
-        price={card.price}
+        key={card.id}
+        cards={card}
+        // title={card.title}
+        // description={card.description}
+        // price={card.price}
         portrait={getImageURL(card.coverImg)}
-        rating={card.stats.rating}
-        reviewCount={card.stats.reviewCount}
-        country={card.location}
-        openSpots={card.openSpots}
+        // rating={card.stats.rating}
+        // reviewCount={card.stats.reviewCount}
+        // country={card.location}
+        // openSpots={card.openSpots}
       />
     );
   });
